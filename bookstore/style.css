@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+header {
+    padding: 10px 0;
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#ricerca {
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-light {
+    border-radius: 30px;
+    padding: 5px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bi-cart2 {
+    font-size: 1.75rem;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.bi-cart2:hover {
+    transform: scale(1.1);
+}
+
+.bi-cart2::after {
+    content: attr(data-count);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+  
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:15rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    height:14rem;
+  
+}
+.card-body {
+   
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.card-price span {
+    font-size: 1rem;
+    color: #343a40;
+}
+#totaleCarrello {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+
+
+
+.carrello {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#svuotaCarrello {
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+#numElementiCarrello {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.offcanvas-body {
+    padding: 20px;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.offcanvas-title {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card-img-top {
+   
+    border-radius: 10px 10px 0 0;
+}
