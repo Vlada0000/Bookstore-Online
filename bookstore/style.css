@@ -62,7 +62,7 @@ header {
     transition: transform 0.3s, box-shadow 0.3s;
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width:15rem;
+  
 }
 
 .card:hover {
@@ -70,8 +70,8 @@ header {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 .card img {
-    height:14rem;
-  
+    height:10rem;
+  object-fit: scale-down;
 }
 .card-body {
    
